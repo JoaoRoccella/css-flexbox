@@ -1,0 +1,33 @@
+.child-box {
+  /* border-color: #000; 
+  border-style: solid;
+  border-width: 1px; */
+  border: #000 solid 1px; /* shorthand para border-* */
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+div.child-box:nth-of-type(1) {
+  background-color: beige;
+}
+
+div.child-box:nth-of-type(2) {
+  background-color: cornflowerblue;
+}
+
+div.child-box:nth-of-type(3) {
+  background-color: lightcoral;
+}
+
+.parent-box {
+  display: flex;
+  background-color: #f0c590;
+  padding: 40px 20px 20px 20px; /* shorthand para padding-* */
+}
+
+.parent-box > p {
+  position: absolute;
+  margin-top: -30px;
+}
+
