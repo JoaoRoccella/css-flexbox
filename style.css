@@ -1,0 +1,37 @@
+.child-box {
+  /* border-color: #000;
+  border-style: solid;
+  border-width: 1px; */
+  border: #000 solid 1px; /* shorthand */
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.parent-box div:nth-child(2) {
+  background-color: beige;
+}
+
+.parent-box div:nth-child(3) {
+  background-color: azure;
+}
+
+.parent-box div:nth-child(4) {
+  background-color: gainsboro;
+}
+
+.parent-box {
+  display: flex;
+  background-color: #ffdfb7;
+  padding: 40px 20px 20px 20px; /* shorthand para: padding-top, padding-right, padding-bottom, padding-left */
+}
+
+.parent-box > p {
+  position: absolute;
+  margin-top: -30px;
+  left: 25px;
+}
+
+#justify-content .parent-box {
+  justify-content: center;
+}
