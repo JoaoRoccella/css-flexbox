@@ -9,28 +9,117 @@
 </head>
 <body>
   <h1 class="page-title">Propriedades CSS do Flexbox</h1>
-  <h2 class="property-title">display: flex</h2>
-  <p>Utilize o display: flex para começar a alinhar os itens dentro da caixa-pai (parent-box).</p>
+  
+  <section class="property-section" id="display-flex">
+    <h2 class="property-title">display: flex</h2>
 
-  <div class="parent-box">
-    <p>caixa-pai</p>
-
-    <div class="child-box">
-      <p>1</p>
-      <p>caixa-filho</p>
+    <p>Utilize o display: flex para começar a alinhar os itens dentro da caixa-pai (parent-box).</p>
+  
+    <div class="parent-box">
+      <p>caixa-pai</p>
+  
+      <div class="child-box">
+        <p>1</p>
+        <p>caixa-filho</p>
+      </div>
+  
+      <div class="child-box">
+        <p>2</p>
+        <p>caixa-filho</p>
+      </div>
+  
+      <div class="child-box">
+        <p>3</p>
+        <p>caixa-filho</p>
+      </div>
+  
     </div>
+  </section>
 
-    <div class="child-box">
-      <p>2</p>
-      <p>caixa-filho</p>
-    </div>
+  
+  <section class="property-section" id="justify-content">
+    
+    <h2 class="property-title">justify-content:</h2>
+    
+    <section class="value-section" id="jc-center">
 
-    <div class="child-box">
-      <p>3</p>
-      <p>caixa-filho</p>
-    </div>
+      <h3 class="value-title">center</h3>
+      <p>Justifica o conteúdo ao centro da caixa-pai.</p>
+    
+      <div class="parent-box">
+        <p>caixa-pai</p>
+    
+        <div class="child-box">
+          <p>1</p>
+          <p>caixa-filho</p>
+        </div>
+    
+        <div class="child-box">
+          <p>2</p>
+          <p>caixa-filho</p>
+        </div>
+    
+        <div class="child-box">
+          <p>3</p>
+          <p>caixa-filho</p>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="value-section" id="jc-space-around">
+      
+      <h3 class="value-title">space-around</h3>
+      <p>Justifica o conteúdo adicionando um espaço ao redor das caixas-filho.</p>
+      
+      <div class="parent-box">
+        <p>caixa-pai</p>
+        
+        <div class="child-box">
+          <p>1</p>
+          <p>caixa-filho</p>
+        </div>
+        
+        <div class="child-box">
+          <p>2</p>
+          <p>caixa-filho</p>
+        </div>
+        
+        <div class="child-box">
+          <p>3</p>
+          <p>caixa-filho</p>
+        </div>
+        
+      </div>
+    </section>
 
-  </div>
+    <section class="value-section" id="jc-space-between">
+      
+      <h3 class="value-title">space-between</h3>
+      <p>Justifica o conteúdo adicionando um espaço entre as caixas-filho.</p>
+      
+      <div class="parent-box">
+        <p>caixa-pai</p>
+        
+        <div class="child-box">
+          <p>1</p>
+          <p>caixa-filho</p>
+        </div>
+        
+        <div class="child-box">
+          <p>2</p>
+          <p>caixa-filho</p>
+        </div>
+        
+        <div class="child-box">
+          <p>3</p>
+          <p>caixa-filho</p>
+        </div>
+        
+      </div>
+    </section>
+    
+  </section>
 
 </body>
 </html>
