@@ -1,23 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .child-box {
   /* border-color: #000; 
   border-style: solid;
   border-width: 1px; */
   border: #000 solid 1px; /* shorthand para border-* */
-  border-radius: 10px;
+  border-radius: 15px;
   width: 100px;
   height: 100px;
   text-align: center;
 }
 
-div.child-box:nth-of-type(1) {
+div.child-box:nth-of-type(3n+1) {
   background-color: beige;
 }
 
-div.child-box:nth-of-type(2) {
+div.child-box:nth-of-type(3n+2) {
   background-color: cornflowerblue;
 }
 
-div.child-box:nth-of-type(3) {
+div.child-box:nth-of-type(3n+3) {
   background-color: lightcoral;
 }
 
@@ -27,14 +33,22 @@ div.child-box:nth-of-type(3) {
   padding: 40px 20px 20px 20px; /* shorthand para padding-* */
 }
 
-.parent-box > p {
+.parent-box-caption {
   position: absolute;
-  margin-top: -30px;
+  margin-top: 10px;
   left: 30px;
 }
 
 #jc-center .parent-box {
   justify-content: center;
+}
+
+#jc-flex-start .parent-box {
+  justify-content: flex-start;
+}
+
+#jc-flex-end .parent-box {
+  justify-content: flex-end;
 }
 
 #jc-space-around .parent-box {
@@ -43,4 +57,12 @@ div.child-box:nth-of-type(3) {
 
 #jc-space-between .parent-box {
   justify-content: space-between;
+}
+
+#jc-space-evenly .parent-box {
+  justify-content: space-evenly;
+}
+
+#fd-column-reverse .parent-box {
+  flex-direction: column-reverse;
 }
