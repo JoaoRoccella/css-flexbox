@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .child-box {
   /* border-color: #000;
   border-style: solid;
@@ -41,10 +47,23 @@
   justify-content: flex-start;
 }
 
+#jc-flex-end .parent-box {
+  justify-content: flex-end;
+}
+
 #jc-space-around .parent-box {
   justify-content: space-around;
 }
 
 #jc-space-between .parent-box {
   justify-content: space-between;
+}
+
+#jc-space-evenly .parent-box {
+  justify-content: space-evenly;
+}
+
+#fd-column-reverse .parent-box {
+  justify-content: flex-start;
+  flex-direction: column-reverse;
 }
