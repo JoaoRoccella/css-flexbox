@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Propriedades CSS Flexbox</title>
+  <title>Propriedades CSS do Flexbox</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -19,21 +19,21 @@
     </p>
     
     <div class="parent-box">
-      <p>parent-box</p>
+      <p>caixa-pai (flex container)</p>
       
       <div class="child-box">
         <p>1</p>
-        <p>child-box</p>
+        <p>caixa-filho (flex item)</p>
       </div>
       
       <div class="child-box">
         <p>2</p>
-        <p>child-box</p>
+        <p>caixa-filho (flex item)</p>
       </div>
       
       <div class="child-box">
         <p>3</p>
-        <p>child-box</p>
+        <p>caixa-filho (flex item)</p>
       </div>
 
     </div>
@@ -41,36 +41,125 @@
   </section>
 
   <section class="property-section" id="justify-content">
-    
     <h2 class="property-title">justify-content:</h2>
     
-    <h3 class="value-title">justify-content: center</h3>
-    
-    <p class="property-explanation">
-      Esta propriedade é utilizada para justificar o conteúdo ao centro.
-    </p>
-    
-    <div class="parent-box">
-      <p>parent-box</p>
+    <section class="value-section" id="jc-center">
+      <h3 class="value-title">center</h3>
       
-      <div class="child-box">
-        <p>1</p>
-        <p>child-box</p>
-      </div>
+      <p class="property-explanation">
+        Esta propriedade é utilizada para justificar o conteúdo ao centro.
+      </p>
       
-      <div class="child-box">
-        <p>2</p>
-        <p>child-box</p>
-      </div>
-      
-      <div class="child-box">
-        <p>3</p>
-        <p>child-box</p>
+      <div class="parent-box">
+        <p>caixa-pai (flex container)</p>
+        
+        <div class="child-box">
+          <p>1</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>2</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>3</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+  
       </div>
 
-    </div>
+    </section> <!-- Fecha a seção de valor -->
 
-  </section>
+    <section class="value-section" id="jc-flex-start">
+      <h3 class="value-title">flex-start</h3>
+      
+      <p class="property-explanation">
+        Esta propriedade é utilizada para justificar o conteúdo à esquerda.
+      </p>
+      
+      <div class="parent-box">
+        <p>caixa-pai (flex container)</p>
+        
+        <div class="child-box">
+          <p>1</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>2</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>3</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+  
+      </div>
+
+    </section> <!-- Fecha a seção de valor -->
+
+    <section class="value-section" id="jc-space-around">
+      <h3 class="value-title">space-around</h3>
+      
+      <p class="property-explanation">
+        Esta propriedade é utilizada para justificar o conteúdo com espaço ao redor.
+      </p>
+      
+      <div class="parent-box">
+        <p>caixa-pai (flex container)</p>
+        
+        <div class="child-box">
+          <p>1</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>2</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>3</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+  
+      </div>
+
+    </section> <!-- Fecha a seção de valor -->
+
+    <section class="value-section" id="jc-space-between">
+      <h3 class="value-title">space-between</h3>
+      
+      <p class="property-explanation">
+        Esta propriedade é utilizada para justificar o conteúdo com espaço entre os elementos-filho.
+      </p>
+      
+      <div class="parent-box">
+        <p>caixa-pai (flex container)</p>
+        
+        <div class="child-box">
+          <p>1</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>2</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>3</p>
+          <p>caixa-filho (flex item)</p>
+        </div>
+  
+      </div>
+
+    </section> <!-- Fecha a seção de valor -->
+
+  </section> <!-- Fecha a seção de propriedade -->
 
 </body>
 </html>

@@ -1,0 +1,18 @@
+
+seção de propriedade: justify-content
+
+  seção de valor: center
+
+  seção de valor: space-around
+
+  seção de valor: space-between
+
+fecha seção propriedade
+
+seção de propriedade: flex-direction
+
+  seção de valor: column
+
+  seção de valor: row
+
+fecha seção propriedade
