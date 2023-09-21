@@ -1,0 +1,28 @@
+/* (Mini) Reset do CSS do navegador para evitar conflito
+de estilos entre navegadores. Você pode definir seus 
+próprios resets. */
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-size: initial;
+    font-weight: 400;
+    text-align: initial;
+}
+
+/* Estilos da página que sobrescreverão os resets anteriores */
+
+.container {
+    height: 300px;
+    background-color: antiquewhite;
+    border: 5px solid #ff2727; 
+    display: flex;
+}
+
+.contido {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 5px solid #0000ff;
+}
