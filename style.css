@@ -97,6 +97,7 @@ tr:last-child {
     background-color: antiquewhite;
     border: 5px solid #ff2727; 
     display: flex;
+    padding: 2px;
 }
 
 .contido {
@@ -104,14 +105,14 @@ tr:last-child {
     height: 100px;
     border: 5px solid #000000;
     border-radius: 8px;
-    margin: 1px;
+    margin-right: 2px;
 }
 
 .contido:nth-child(5n+1) {
     background-color: #ff2727;
 }
 
-.contido:nth-child(5n+2) {
+ .contido:nth-child(5n+2) {
     background-color: #27ff9a;
 }
 
@@ -125,7 +126,7 @@ tr:last-child {
 
 .contido:nth-child(5n+5) {
     background-color: #ff27cd;
-}
+} 
 
 .display-flex {
     display: flex;
@@ -135,7 +136,10 @@ tr:last-child {
     justify-content: center;
 }
 
-#cores {
+.flex-wrap-wrap {
     flex-wrap: wrap;
-    height: auto;
+}
+
+.align-content-space-between {
+    align-content: space-between;
 }
