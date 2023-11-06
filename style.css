@@ -98,6 +98,9 @@ tr:last-child {
     border: 5px solid #ff2727; 
     display: flex;
     padding: 2px;
+    box-shadow: 4px 4px 10px #AAA;
+    border-radius: 14px;
+    gap: 2px;
 }
 
 .contido {
@@ -105,7 +108,6 @@ tr:last-child {
     height: 100px;
     border: 5px solid #000000;
     border-radius: 8px;
-    margin-right: 2px;
 }
 
 .contido:nth-child(5n+1) {
