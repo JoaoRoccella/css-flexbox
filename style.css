@@ -41,6 +41,10 @@ h4 {
     font-size: 18pt;
 }
 
+li {
+    margin-left: 20px;
+}
+
 p, table {
     margin: 20px 0;
 }
